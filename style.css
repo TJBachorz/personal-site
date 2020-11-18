@@ -1,20 +1,15 @@
-.html, body {
-    height: 110%;
-    width: 110%;
-    overflow: auto;
+.home {
+    background-color: green;
+    
 }
 
-#content {
-    min-height: 110%;
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: yellow;
 }
 
-.content-container {
-    background-color: gray;
-    height: 120%;
-    width: 120%;
-    position: absolute;
-}
-
-h1 {
-    color: blue;
+span {
+    background: white !important;
 }

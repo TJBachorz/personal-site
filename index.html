@@ -3,15 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <script defer src="app.js"></script>
     <title>Thomas Bachorz -- Full-Stack Software Engineer</title>
 </head>
 <body>
-    <!-- <h1>Thomas Bachorz</h1> -->
-        <div class="content-container"></div>
-    
+    <div id="fullpage">
+        <div class="section home">
+            <h1>the first section</h1>
+            <div class="slide">
+                <h1>the second section</h1>
+            </div>
+        </div>
+        <div class="section two">
+            <h1>the second section</h1>
+        </div>
+        <div class="section three">
+            <h1>the third section</h1>
+        </div>
+    </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+    
+        <script>
+
+            new fullpage("#fullpage", {
+                autoScrolling: true,
+                navigation: true,
+                navigationPosition: 'right'
+            })
+
+        </script>
+    
     </body>
 </html>
