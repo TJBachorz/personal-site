@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    /* background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-4.png"); */
+    /* background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-3-1024x745.png"); */
+    background-image: url("noise.png");
+    /* background: #294A51; */
+    /* background-size: cover; */
+    /* background-blend-mode: screen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.name-and-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-pic {
+    
+}
+
+.my-pic > img {
+    
+
+}
+
+.my-pic {
+    /* border-radius: 15px; */
+    /* height: auto;
+    width: auto;
+    background-image: url(./winner.JPG);
+    background-size: cover; */
+    /* -ms-background-position-x: center;
+	-ms-background-position-y: bottom;
+    background-position: center center; 
+    padding-top: 100px; */
+    /* box-shadow: 0 0 200px #5c6364 inset; */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #294A51;
+}
+
+
 .home {
     background-color: green;
     

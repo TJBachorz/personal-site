@@ -1,5 +1,3 @@
-let student = {name: "TJ", age: 25}
+// 3744 × 5616
 
-let {name, age} = student
-
-console.log(age - 5)
+console.log("working")
