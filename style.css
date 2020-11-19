@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    /* background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-4.png"); */
-    /* background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/02/7-noise-texture-overlays-3-1024x745.png"); */
     background-image: url("noise.png");
     /* background: #294A51; */
-    /* background-size: cover; */
-    /* background-blend-mode: screen; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .name-and-image {
     display: flex;
@@ -22,15 +16,68 @@ body {
 }
 
 .my-pic {
-    
+    overflow: hidden;
+    margin: 10px;
+    margin-top: -75px;
+    margin-right: 40px;
 }
 
 .my-pic > img {
-    
-
+    object-fit: cover;
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    object-position: 0px -10%;
 }
 
-.my-pic {
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #294A51;
+}
+
+h1 {
+    font-size: 75px;
+    margin-bottom: 25px;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fa {
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    margin: 2px;
+}
+
+a, a:visited {
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+}
+
+.fa-medium, .fa-github {
+    background: rgb(24, 24, 24);
+}
+
+/* .my-pic { */
     /* border-radius: 15px; */
     /* height: auto;
     width: auto;
@@ -41,15 +88,10 @@ body {
     background-position: center center; 
     padding-top: 100px; */
     /* box-shadow: 0 0 200px #5c6364 inset; */
-}
-
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #294A51;
-}
+/* } */
 
 
-.home {
+/* .home {
     background-color: green;
     
 }
@@ -63,4 +105,4 @@ h1, h2, h3 {
 
 span {
     background: white !important;
-}
+} */
