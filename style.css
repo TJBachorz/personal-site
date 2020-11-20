@@ -2,7 +2,6 @@
 
 body {
     background-image: url("noise.png");
-    /* background: #294A51; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +27,30 @@ body {
 }
 
 .my-pic {
+    background-image: linear-gradient(209deg, rgba(225,179,130,0.3) 35%, rgba(78,166,202,1) 100%), url(./winner.JPG);
+    background-position: center bottom;
+    background-size: 500px;
+    background-blend-mode: darken;
+    height: 600px;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #12343B;
+}
+
+.image-style {
+    /* border: 1px solid black; */
+}
+
+/* .my-pic > img {
+    object-fit: cover;
+    object-position: 0 0;
+    height: 960px;
+    width: 640px;
+} */
+
+/* .my-pic {
     overflow: hidden;
     margin: 10px;
     margin-top: -75px;
@@ -40,13 +63,13 @@ body {
     width: 400px;
     border-radius: 15px;
     position: relative;
-    object-position: 0px -10%;
-
-}
+    object-position: 0px -10%;  
+} */
 
 h1, h2, h3, p {
     font-family: 'Montserrat', sans-serif;
     color: #294A51;
+    display: inline-block;
 }
 
 h1 {
@@ -101,6 +124,11 @@ a.resume {
     background: white !important;
 } */
 
-@media (min-width: 1400px) {
-    
+@media (max-width: 1400px) {
+    h1, h2, h3, p {
+        width: 300px;
+    }
+    .contacts {
+        margin-top: 150px;
+    }
 }
