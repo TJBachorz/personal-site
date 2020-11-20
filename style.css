@@ -186,6 +186,7 @@ a.resume {
 @media (max-width: 450px) {
     body {
         margin: 0;
+        margin-top: -25px;
     }
     h1 {
         margin-top: 0px;
@@ -202,13 +203,12 @@ a.resume {
         margin-bottom: 10px;
     }
     .contacts {
-        margin-top:50px;
+        margin-top:40px;
     }
     .links {
         flex-wrap: wrap;
         justify-content: center;
         grid-gap: 30px;
-        justify-content: center;
     }
     .fa, .fas {
         font-size: 55px;
