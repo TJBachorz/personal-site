@@ -97,32 +97,10 @@ a.resume {
     background: #dd4b39;
 }
 
-/* .my-pic { */
-    /* border-radius: 15px; */
-    /* height: auto;
-    width: auto;
-    background-image: url(./winner.JPG);
-    background-size: cover; */
-    /* -ms-background-position-x: center;
-	-ms-background-position-y: bottom;
-    background-position: center center; 
-    padding-top: 100px; */
-    /* box-shadow: 0 0 200px #5c6364 inset; */
-/* } */
-
-
-/* .home {
-    background-color: green;
-    
-}
-
-.two {
-    background-color: blue;
-}
-.three {
-    background-color: yellow;
-}
-
-span {
+/* span {
     background: white !important;
 } */
+
+@media (min-width: 1400px) {
+    
+}
