@@ -8,10 +8,22 @@ body {
     align-items: center;
 }
 
-.name-and-image {
+.name-and-image, .contacts {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    margin-top: 50px;
+}
+
+.links {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -29,9 +41,10 @@ body {
     border-radius: 15px;
     position: relative;
     object-position: 0px -10%;
+
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     font-family: 'Montserrat', sans-serif;
     color: #294A51;
 }
@@ -44,10 +57,9 @@ h1 {
 .my-info {
     display: flex;
     flex-direction: column;
-    
 }
 
-.fa {
+.fa, .fas {
     border-radius: 50%;
     font-size: 30px;
     padding: 8px;
@@ -59,6 +71,10 @@ h1 {
 
 a, a:visited {
     color: white;
+}
+
+a.resume {
+    color: #294A51
 }
 
 .fa:hover {
@@ -75,6 +91,10 @@ a, a:visited {
 
 .fa-medium, .fa-github {
     background: rgb(24, 24, 24);
+}
+
+.fa-envelope {
+    background: #dd4b39;
 }
 
 /* .my-pic { */
