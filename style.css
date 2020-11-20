@@ -39,33 +39,6 @@ body {
     box-shadow: 5px 5px 20px #12343B;
 }
 
-.image-style {
-    /* border: 1px solid black; */
-}
-
-/* .my-pic > img {
-    object-fit: cover;
-    object-position: 0 0;
-    height: 960px;
-    width: 640px;
-} */
-
-/* .my-pic {
-    overflow: hidden;
-    margin: 10px;
-    margin-top: -75px;
-    margin-right: 40px;
-}
-
-.my-pic > img {
-    object-fit: cover;
-    height: 600px;
-    width: 400px;
-    border-radius: 15px;
-    position: relative;
-    object-position: 0px -10%;  
-} */
-
 h1, h2, h3, p {
     font-family: 'Montserrat', sans-serif;
     color: #294A51;
@@ -125,10 +98,121 @@ a.resume {
 } */
 
 @media (max-width: 1400px) {
-    h1, h2, h3, p {
-        width: 300px;
+    main {
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .my-info {
+        width: 425px;
     }
     .contacts {
         margin-top: 150px;
+    }
+    .my-pic {
+        margin-right: 100px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    main {
+        margin-top: 5px;
+    }
+    .my-pic {
+        margin-right: 50px;
+    }
+    .my-info {
+        width: 300px;
+    }
+    .contacts {
+        margin-top: 65px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1050px) and (max-height: 1400px) {
+    main {
+        margin-top: 100px;
+    }
+    .contacts {
+        margin-top: 125px;
+    }
+}
+
+@media (max-width: 1050px) and (max-height: 800px) {
+    main {
+        margin-top:30px;
+    }
+    .contacts {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 875px) {
+    main {
+        margin-top: 75px;
+    }
+    .my-pic {
+        height: 480px;
+        width: 320px;
+        background-size: 400px;
+    }
+    .my-info {
+        width: 275px;
+    }
+    .contacts {
+        margin-top: 165px;
+    }
+}
+@media (max-width: 830px) and (max-height: 400px) {
+    main {
+        margin-top: 5px;
+    }
+    .my-pic {
+        height: 480px;
+        width: 320px;
+        background-size: 400px;
+    }
+    .my-info {
+        width: 275px;
+    }
+    .contacts {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        margin: 0;
+    }
+    h1 {
+        margin-top: 0px;
+    }
+    .name-and-image {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-pic, .my-info {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .contacts {
+        margin: 50px;
+    }
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-gap: 30px;
+        justify-content: center;
+    }
+    .fa, .fas {
+        font-size: 55px;
+        width: 55px;
+        margin: 5px;
     }
 }
