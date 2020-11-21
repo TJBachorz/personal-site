@@ -52,9 +52,15 @@ body {
 @keyframes slideInFromBottom {
     0% {
         transform: translateY(500%);
+        opacity: 0;
+    }
+    80% {
+        transform: translateY(500%);
+        opacity: 0;
     }
     100% {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 
@@ -69,7 +75,7 @@ body {
     margin-right: 30px;
     border-radius: 15px;
     box-shadow: 5px 5px 20px #12343B;
-    /* animation: slideInFromLeft 3s ease-in-out 1s 1, fade-1 5s ease-in-out 1s; */
+    animation: slideInFromLeft 3s ease-in-out 0s 1, main-element-fade 5s ease-in-out 0s;
 }
 
 h1, h2, h3, p {
@@ -87,17 +93,8 @@ h1 {
     display: flex;
     flex-direction: column;
     position: relative;
-    /* animation: slideInFromRight 3s ease-in-out 1s 1, fade-1 5s ease-in-out 1s; */
+    animation: slideInFromRight 3s ease-in-out 0s 1, main-element-fade 5s ease-in-out 0s;
 }
-
-/* .animate {
-    animation: .75s cubic-bezier(1,-0.01,.12,.8) 1s 1 reveal forwards;
-} */
-
-/* @keyframes reveal {
-    from { clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%); }
-    to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
-} */
 
 .fa, .fas {
     border-radius: 50%;
@@ -123,35 +120,32 @@ a.resume {
 
 .fa-twitter {
     background: #55ACEE;
-    /* animation: slideInFromBottom 1.5s ease-in-out 3.6s 1; */
-    /* -webkit-transform: translate3D(0, 0, 0);     */
-    /* -webkit-backface-visibility: hidden;
-	-webkit-transform: scale(1); */
+    animation: slideInFromBottom 5.2s ease-in-out -1s 1;
 }
 
 .fa-linkedin {
     background: #007bb5;
-    /* animation: slideInFromBottom 1.5s ease-in-out 3.8s 1; */
+    animation: slideInFromBottom 5.4s ease-in-out -1s 1;
 }
 
 .fa-medium, .fa-github {
 }
 .fa-medium {
     background: rgb(24, 24, 24);
-    /* animation: slideInFromBottom 1.5s ease-in-out 4.0s 1; */
+    animation: slideInFromBottom 5.6s ease-in-out -1s 1;
 }
 
 .fa-github {
     background: rgb(24, 24, 24);
-    /* animation: slideInFromBottom 1.5s ease-in-out 4.2s 1; */
+    animation: slideInFromBottom 5.8s ease-in-out -1s 1;
 }
 
 .fa-envelope {
     background: #dd4b39;
-    /* animation: slideInFromBottom 1.5s ease-in-out 4.4s 1; */
+    animation: slideInFromBottom 6s ease-in-out -1s 1;
 }
 
-@keyframes fade-1 {
+@keyframes main-element-fade {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
@@ -175,12 +169,12 @@ a.resume {
     }
     .contacts {
         margin-top: 150px;
+        margin-bottom: 100px;
     }
     .my-pic {
         margin-right: 100px;
     }
 }
-
 
 @media (max-width: 1050px) {
     main {
