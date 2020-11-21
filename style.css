@@ -128,8 +128,6 @@ a.resume {
     animation: slideInFromBottom 5.4s ease-in-out -1s 1;
 }
 
-.fa-medium, .fa-github {
-}
 .fa-medium {
     background: rgb(24, 24, 24);
     animation: slideInFromBottom 5.6s ease-in-out -1s 1;
