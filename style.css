@@ -64,11 +64,7 @@ body {
     }
 }
 
-.my-pic {
-    background-image: linear-gradient(209deg, rgba(225,179,130,0.3) 35%, rgba(78,166,202,1) 100%), url(./winner.JPG);
-    background-position: center bottom;
-    background-size: 500px;
-    background-blend-mode: darken;
+img {
     height: 600px;
     width: 400px;
     margin-top: 30px;
@@ -169,7 +165,7 @@ a.resume {
         margin-top: 150px;
         margin-bottom: 100px;
     }
-    .my-pic {
+    img {
         margin-right: 100px;
     }
 }
@@ -178,7 +174,7 @@ a.resume {
     main {
         margin-top: 5px;
     }
-    .my-pic {
+    img {
         margin-right: 50px;
     }
     .my-info {
@@ -215,7 +211,7 @@ a.resume {
     main {
         margin-top: 75px;
     }
-    .my-pic {
+    img {
         height: 480px;
         width: 320px;
         background-size: 400px;
@@ -231,7 +227,7 @@ a.resume {
     main {
         margin-top: 5px;
     }
-    .my-pic {
+    img {
         height: 480px;
         width: 320px;
         background-size: 400px;
@@ -253,7 +249,7 @@ a.resume {
         justify-content: center;
         align-items: center;
     }
-    .my-pic, .my-info {
+    img, .my-info {
         margin: auto;
         margin-top: 30px;
         justify-content: center;
