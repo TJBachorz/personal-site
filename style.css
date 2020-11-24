@@ -68,7 +68,7 @@ img {
     height: 600px;
     width: 400px;
     margin-top: 30px;
-    margin-right: 30px;
+    margin-right: 50px;
     border-radius: 15px;
     box-shadow: 5px 5px 20px #12343B;
     animation: slideInFromLeft 3s ease-in-out 0s 1, main-element-fade 5s ease-in-out 0s;
@@ -148,9 +148,13 @@ a.resume {
     background: white !important;
 } */
 
-@media (max-width: 1400px) {
+@media (max-width: 1400px) and (max-height: 950px){
+    
+}
+
+ /*@media (max-width: 1400px) {
     body {
-        margin-top: -30px;
+        margin-top: -40px;
     }
     main {
         margin-top: 100px;
@@ -173,6 +177,9 @@ a.resume {
 @media (max-width: 1050px) {
     main {
         margin-top: 5px;
+    }
+    .name-and-image {
+        justify-content: space-evenly;
     }
     img {
         margin-right: 50px;
@@ -209,18 +216,17 @@ a.resume {
         margin: 0px;
     }
     main {
-        margin-top: 75px;
+        margin-top: 15px;
     }
     img {
         height: 480px;
         width: 320px;
-        background-size: 400px;
     }
     .my-info {
-        width: 275px;
+        width: 320px;
     }
     .contacts {
-        margin-top: 165px;
+        margin-top: 100px;
     }
 }
 @media (max-width: 830px) and (max-height: 400px) {
@@ -233,7 +239,7 @@ a.resume {
         background-size: 400px;
     }
     .my-info {
-        width: 275px;
+        width: 320px;
     }
     .contacts {
         margin-top: 60px;
@@ -251,10 +257,15 @@ a.resume {
     }
     img, .my-info {
         margin: auto;
-        margin-top: 30px;
         justify-content: center;
         align-items: center;
         margin-bottom: 10px;
+    }
+    img {
+        margin-top: 10px;
+    }
+    .my-info {
+        margin-top: 50px;
     }
     .contacts {
         margin-top:40px;
@@ -272,6 +283,11 @@ a.resume {
 }
 @media (max-width: 450px) {
     body {
-        margin-top: -65px;
+        margin-top: -75px;
     }
 }
+@media (max-width: 325px) {
+    img, .my-info {
+        width: 280px;
+    }
+} */
